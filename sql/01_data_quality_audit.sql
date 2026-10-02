@@ -1,3 +1,5 @@
+-- Data-quality audit: missing station names and IDs by bike type
+
 SELECT
     rideable_type,
     COUNT(*) AS total_rides,
