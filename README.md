@@ -6,7 +6,7 @@ A SQL / DuckDB case study of 868K August 2026 Divvy trips, measuring how much ac
 
 - **Station coverage differs sharply by bike type.** 99.7% of classic-bike trips have a station at both ends, versus 52.5% of electric-bike trips.
 - **E-bike coverage varies by time of day**, from 41.5% (around 2 AM) to 60.1% (around 7 AM), so station-based metrics represent late-night e-bike activity less completely.
-- **Monthly station balances mask strong intraday reversals.** Several stations with modest monthly net flow show large morning net inflow and large evening net outflow.
+- **Monthly station balances mask strong intraday reversals.** Franklin St & Monroe St, for example, had +927 net arrivals in the morning peak and −447 in the evening.
 
 ## Business / Analytical Question
 
