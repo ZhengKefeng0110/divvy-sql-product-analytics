@@ -1,0 +1,13 @@
+data/
+*.duckdb
+*.zip
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+
+# Local scratch / learning files
+SQL/scratch.sql
+SQL/check_tables.sql
+load_data_*.py
+test_duckdb.py
