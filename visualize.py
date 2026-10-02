@@ -2,11 +2,11 @@
 Divvy e-bike analysis: generate all three figures.
 
 Run from the project root:
-    python make_charts.py
+    python visualize.py
 
 Requires:
     - divvy.duckdb with table trips_raw
-    - sql/04_reversal_ranking.sql (the reversal ranking query)
+    - sql/04_station_reversal.sql (the reversal ranking query)
 """
 
 import os
